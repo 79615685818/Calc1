@@ -60,8 +60,10 @@ public class Conversion {
                     vremennoeZnachenie2 = curr;
                 }
                 if (num1 < 1 || num1 > 10 || num2 < 1 || num2 > 10) {
-                    //throw new Exception();
+                    throw new Exception();
                 }
+            }else {
+                throw new Exception();
             }
         } catch (Exception e) {
             System.out.println("Введено не верное значение.");
